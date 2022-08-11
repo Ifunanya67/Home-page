@@ -36,7 +36,7 @@
   --sign-up-button:#2f6a66;
   --clr-base: rgba(198, 197, 201, 1);
   --clr-white:#ffffff;
-  --nav_icons:#ffffff;
+  --nav-icons:#ffffff;
 
 
  }
@@ -146,6 +146,9 @@ input{
     left: 1rem;
     color: var(--input-color);
 }
+.edit-btn{
+background-color: var(--sign-up-button);
+}
 
 .container-main {
     display: grid;
@@ -166,6 +169,7 @@ input{
     padding-top: 5rem;
     padding-right: 2rem;
     margin-top: -120px;
+    margin-bottom: 100px;
     
 
 }
